@@ -30,10 +30,8 @@ class _FirstScreenState extends State<FirstScreen> {
   void check() {
     if (age >= 18) {
       status = 'Allowed';
-      debugPrint('allowed');
     } else {
       status = 'Not Allowed';
-      debugPrint('not allowed');
     }
     setState(() {});
   }
